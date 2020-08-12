@@ -1,4 +1,4 @@
-# OWBSummer2020Project
+# OWB Summer 2020 Capstone Project
 This is where you can submit the pieces for your Open World Builders Summer 2020 Capstone Project
 
 
