@@ -56,6 +56,7 @@ yarn start
 
 After the frontend server is up, open the browser at https://localhost:3000
 
+![](https://i.ibb.co/3pSLFdP/Screenshot-2020-08-21-at-19-06-54.png)
 
 ## Current limitation and potential future addtion
 
