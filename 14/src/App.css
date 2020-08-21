@@ -1,0 +1,19 @@
+
+body{
+  background-color: #DAD2D8;
+}
+
+button {
+    background-color: #1B998B; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.App_Title {
+    margin-left: 1em;
+}
