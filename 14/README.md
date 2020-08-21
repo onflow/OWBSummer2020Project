@@ -56,7 +56,7 @@ yarn start
 
 After the frontend server is up, open the browser at https://localhost:3000 and you should see the page as follows.
 
-![](https://i.ibb.co/3pSLFdP/Screenshot-2020-08-21-at-19-06-54.png | width=600)
+<img width=600 src="https://i.ibb.co/N9WHNCG/Screenshot-2020-08-21-at-19-06-54.png" alt="Screenshot-2020-08-21-at-19-06-54" border="0" />
 
 ## Current limitation and potential future addtion
 
