@@ -54,9 +54,9 @@ go run run.go
 yarn start
 ```
 
-After the frontend server is up, open the browser at https://localhost:3000
+After the frontend server is up, open the browser at https://localhost:3000 and you should see the page as follows.
 
-![](https://i.ibb.co/3pSLFdP/Screenshot-2020-08-21-at-19-06-54.png)
+![](https://i.ibb.co/3pSLFdP/Screenshot-2020-08-21-at-19-06-54.png | width=600)
 
 ## Current limitation and potential future addtion
 
