@@ -1,6 +1,6 @@
 # Health Crossing
 
-## Product
+## Product 
 
 Health Crossing is a fun, engaging, easy to start way to get fit, healthy & happy in the digital age. Users create custom Avatars that change with their health behavior & unlock custom wearable NFTs for their Avatars as they complete milestone when trying to build new healthy and happy habits.
 
@@ -8,9 +8,13 @@ Crossing provides support to users on their journey with tips and motivation fro
 
 Our aim is to create a great platform for users to convert their real world behaviour and experiences into a digital one and integrate with games where a level up in your real world habits leads to level up in your in game abilities.
 
-[Recorded Presentation](!https://www.youtube.com/watch?v=94Hp0FWP3_0&feature=youtu.be)
+#### Recorded Presentation
 
-[Slides Presentation](!https://cdn.discordapp.com/attachments/737029299131121684/747842485027471500/Crossing_Deck_-_OWB_Capstone_Project_-_August_2020.pdf)
+https://www.youtube.com/watch?v=94Hp0FWP3_0&feature=youtu.be
+
+#### Slides Presentation
+
+https://cdn.discordapp.com/attachments/737029299131121684/747842485027471500/Crossing_Deck_-_OWB_Capstone_Project_-_August_2020.pdf
 
 **Current Limitations**
 
