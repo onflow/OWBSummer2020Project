@@ -1,6 +1,6 @@
 # Health Crossing
 
-## Product 
+## Product
 
 Health Crossing is a fun, engaging, easy to start way to get fit, healthy & happy in the digital age. Users create custom Avatars that change with their health behavior & unlock custom wearable NFTs for their Avatars as they complete milestone when trying to build new healthy and happy habits.
 
@@ -32,11 +32,21 @@ https://cdn.discordapp.com/attachments/737029299131121684/747842485027471500/Cro
 
 ## Technical
 
-The repo contains 4 directories: `api`, `smart-contracts`, `infra`, and `web`.
+### Demo
+
+https://play.onflow.org/4d94b80c-62d7-45b2-89fc-cba2c8b3fbdf
+
+1. Deploy `HealthCrossingCore` to `0x01`
+2. Setup any account missing an Avatar with txn `1_setup_account`
+3. Ensure you see an Avatar in your resources window
+4. Update an account's health stats with txn `2_update_avatar_progress`
+5. See that your Avatar stats have been updated and also with new NFTs. Note: A Playground bug exists that may set your Avatar to null. [GH#54](!https://github.com/onflow/flow-playground/issues/54).
+
+The repo itself contains 4 directories: `api`, `smart-contracts`, `infra`, and `web`.
 
 ### _api_
 
-The `api` dir is not a true API, but a local dataloader that ingests Apple HealthKit data in CSV form. It successfully marshals the data into stable data structures. It is still missing the steps to create a new wallet for an account and then running the two relevant transactions `setup_account.cdc` and `update_avatar_stats.cdc`.
+The `api` dir is not a true API, but has a local dataloader that ingests Apple HealthKit data in CSV form. It successfully marshals the data into stable data structures. It is still missing the steps that creates a new wallet for an account and runs the two relevant transactions `setup_account.cdc` and `update_avatar_stats.cdc`.
 
 Future state: Create the necessary endpoints for user onboarding and user interactions for Health Crossing transactions.
 
