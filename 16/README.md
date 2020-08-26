@@ -10,11 +10,11 @@ Our aim is to create a great platform for users to convert their real world beha
 
 #### Recorded Presentation
 
-https://www.youtube.com/watch?v=94Hp0FWP3_0&feature=youtu.be
+[Youtube presentation video](https://www.youtube.com/watch?v=94Hp0FWP3_0&feature=youtu.be)
 
 #### Slides Presentation
 
-https://cdn.discordapp.com/attachments/737029299131121684/747842485027471500/Crossing_Deck_-_OWB_Capstone_Project_-_August_2020.pdf
+[Presentation slides](https://drive.google.com/file/d/1-Xq7C1EddjBRRxrKGXhEjH4TWSs6B6PQ/view?usp=sharing)
 
 **Current Limitations**
 
