@@ -1,0 +1,23 @@
+{
+  "name": "health-cross-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.720.0",
+    "next": "^9.3.3",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.43",
+    "@vercel/node": "^1.7.3",
+    "add": "^2.0.6",
+    "typescript": "^3.9.7",
+    "yarn": "^1.22.4"
+  }
+}

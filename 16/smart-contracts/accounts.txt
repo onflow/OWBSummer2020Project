@@ -1,0 +1,14 @@
+These are statically generated in sequence by the Flow emulator.
+
+Account 0: 0xf8d6e0586b0a20c7 (service) 
+Account 1: 0x01cf0e2f2f715450
+Account 2: 0x179b6b1cb6755e31
+Account 3: 0xf3fcd2c1a78f5eee
+Account 4: 0xe03daebed8ca0615
+Account 5: 0x045a1763c93006ca
+Account 6: 0x120e725050340cab
+
+1. Deploy FungibleToken.cdc to 0x01cf0e2f2f715450
+2. Deploy NonFungibleToken.cdc to 0x179b6b1cb6755e31
+3. Deploy HealthCrossingCoin.cdc to 0xf3fcd2c1a78f5eee
+4. Deploy HealthCrossingCore.cdc to 0xe03daebed8ca0615
