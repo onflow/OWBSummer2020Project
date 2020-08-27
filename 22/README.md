@@ -30,8 +30,8 @@ All the code for versus is located in our [github organization](https://github.c
 
 The relevant technical parts and their state at the end of OWB can be found at the following links
 
-[ contracts ](https://github.com/versus-flow/auction-flow-contract/tree/OWB)
-[ website ](https://github.com/versus-flow/versus-action-website/tree/OWB)
+ - [ contracts ](https://github.com/versus-flow/auction-flow-contract/tree/OWB)
+ - [ website ](https://github.com/versus-flow/versus-action-website/tree/OWB)
 
 Part of the contracts was made in cooperation with team #23.
 
