@@ -30,8 +30,8 @@ All the code for versus is located in our [github organization](https://github.c
 
 The relevant technical parts and their state at the end of OWB can be found at the following links
 
-[ contracts ] (https://github.com/versus-flow/auction-flow-contract/tree/OWB)
-[ website ] (https://github.com/versus-flow/versus-action-website/tree/OWB)
+[ contracts ](https://github.com/versus-flow/auction-flow-contract/tree/OWB)
+[ website ](https://github.com/versus-flow/versus-action-website/tree/OWB)
 
 Part of the contracts was made in cooperation with team #23.
 
@@ -40,10 +40,10 @@ As part of the OWB program team 22 and team 23 also cooperated on making [a tool
 ### Demo
 
 Follow the readme instructions in 
-[ contracts ] (https://github.com/versus-flow/auction-flow-contract/tree/OWB) for a pure terminal based demo. 
+[ contracts ](https://github.com/versus-flow/auction-flow-contract/tree/OWB) for a pure terminal based demo. 
 
 Follow the instructions in the 
-[ website ] (https://github.com/versus-flow/versus-action-website/tree/OWB) repo for a mixed demo. 
+[ website ](https://github.com/versus-flow/versus-action-website/tree/OWB) repo for a mixed demo. 
 
 Firefox and a large monitor is recommended for a good UI experience on the web.
 
