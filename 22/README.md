@@ -10,7 +10,7 @@
 
 #### Slides Presentation
 
-[Presentation slides](https://drive.google.com/file/d/1-Xq7C1EddjBRRxrKGXhEjH4TWSs6B6PQ/view?usp=sharing)
+[Presentation slides](https://docs.google.com/presentation/d/17ykvt8j9A9icMgjL_CH7cyPbWp4j15QwNtRkQOmR0Dc/edit?usp=sharing)
 
 **Current Limitations**
 
