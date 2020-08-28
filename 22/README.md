@@ -5,8 +5,8 @@
 
 #### Recorded Presentation
 
-[product video](https://www.youtube.com/watch?v=zv5lMRjC73s&feature=youtu.be)
-[technial video](https://www.dropbox.com/s/av2wjkv3xhiawkc/versus.mov?dl=0)
+- [product video](https://www.youtube.com/watch?v=zv5lMRjC73s&feature=youtu.be)
+- [technial video](https://www.dropbox.com/s/av2wjkv3xhiawkc/versus.mov?dl=0)
 
 #### Slides Presentation
 
@@ -17,6 +17,7 @@
 - A way to actually pay for the art and earn money.
 - web frontend is not responsive and only looks good in firefox in certain resolutions
 - devnet deploy
+- the web frontend is currently using the heigh to the block to messure time. On devnet that might have to change to using unix_timestamp
 
 
 **Future Additions**
