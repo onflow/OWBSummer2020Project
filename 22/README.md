@@ -5,6 +5,7 @@
 
 #### Recorded Presentation
 
+[product video](https://www.youtube.com/watch?v=zv5lMRjC73s&feature=youtu.be)
 [technial video](https://www.dropbox.com/s/av2wjkv3xhiawkc/versus.mov?dl=0)
 
 #### Slides Presentation
