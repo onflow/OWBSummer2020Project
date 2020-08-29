@@ -1,0 +1,80 @@
+//Pseudocode for Smart Contract
+/*
+ Using Smart Contracts and Blockchains provide a method of transparency that is useful for the public when donating money to non profits and other charitable organizations. The purpose of the Giver is to make all the charity's transactions completely visible to the public. Although charities file taxes under non profits and release their tax returns to the public, the normal American has little way to check the accuracy of the tax information. Any organization can lie about their incomes and hide earnings. The Giver acts as an intermediary that tracks how an organization spends the money from donors. Thus, when one donates to a charity through the Giver, not only do they have full access to the charity's transactions, but it also entices people to donate to charities that use the Giver knowing the charity is not fraudulent.
+
+ Project done by Ellie Kobak and Henry Forcier
+*/
+
+
+pub contract interface CharityNFT {
+	 // Define NFT that will represent one donation from a user
+	
+	 pub fun deposit(token: @NFT)
+	 // enables public to deposit the charity NFT into this account
+
+     pub fun getIDs(): [UInt64]
+     // Want public to have access to IDs to track the transactions involving specific tokens
+
+     pub fun idExists(id: UInt64): Bool
+     // allows ID verification to public
+
+     pub fun withdraw(amount: UFix64): @Vault {
+            self.balance = self.balance - amount
+            return <-create Vault(balance: amount))
+     // Allows the charity to withdraw the tokens from the account to use the donations for the charity's intended purpose.
+
+     // Donations 
+     // The account will only recieve donations through here.
+
+
+     pub resource interface Donation {
+
+     	 // adds the donations to the Collection
+     	 // Donations provided from user
+     	 //
+     }
+
+     pub resource interface Deposits {
+     	 // once the charity has the money from the NFTs, this allows them to move the tokens and be used by the charity
+     	 //pub fun withdraw(tokenID: UInt64) : @NFT {
+     	 	 post {
+     	 	 	 result.id == tokenID: "The ID of the the token wish to be withdrawn must have same ID as the requested ID"
+     	 	 }
+     	 }
+     }
+     pub resource interface PublicCollection {
+     	 // publish for the public access
+     	 pub fun deposit
+     	 pub fun getIDs
+     }
+
+     pub resource Collection: User, Donation, PublicCollection {
+     	 // Keeps track of all the donations made in a dictionary
+
+     }
+
+     // Vaults 
+     //
+     // Each donation will be stored in its own vault, which enables the user to track how the charity uses the money they donate or see how the charity spends other donations
+
+     pub resource Vault: User, Donation, Balance {
+     	
+     	 // want the balance to be public so the money the charity spends is verifiable through the blockchain, tax returns and other documentations of earning charities use.
+     	 pub var balance: UFix64 {
+     	 	 self.balamce = balance
+     	 }
+     }
+
+     // VaultMinter
+     //
+     // In case the charity creates new Tokens
+     pub resource VaultMinter {
+
+		
+         // as long as it implements the Receiver interface
+         pub fun mintTokens(amount: UFix64, recipient: &AnyResource{Deposits}) {
+			 FungibleToken.totalSupply = FungibleToken.totalSupply + amount
+             recipient.deposit(from: <-create Vault(balance: amount))
+         }
+     }
+}
