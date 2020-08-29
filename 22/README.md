@@ -13,6 +13,12 @@ Our project, Versus, is an art platform where established and approved artists r
 
 [Presentation slides](https://docs.google.com/presentation/d/17ykvt8j9A9icMgjL_CH7cyPbWp4j15QwNtRkQOmR0Dc/edit?usp=sharing)
 
+** Noteable features
+ - extending the time of all auctions on late bid when there is a late bid
+ - bid on tied auction is allowed after the auction has ended. There has to be a winner.
+ - money bid in an auction is escrowed
+ - all values ate customizable from outside the contract. Length of auction, cut percentage aso
+
 **Current Limitations**
 
 - A way to actually pay for the art and earn money.
