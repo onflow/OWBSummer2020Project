@@ -24,8 +24,8 @@ Our project, Versus, is an art platform where established and approved artists r
 **Future Additions**
 
 - The contract has some points around security and composability that we should address but they depend on features in cadence beeing developed.
- -- Using metadata in the NFT to store information about the art, and the art itself
- -- Create a NFTEditioner that will take a NFT and edition it with a given number of editions
+-- Using metadata in the NFT to store information about the art, and the art itself
+-- Create a NFTEditioner that will take a NFT and edition it with a given number of editions
 
 ## Technical
 
