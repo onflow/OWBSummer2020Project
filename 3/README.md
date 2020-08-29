@@ -5,7 +5,7 @@ Project done by Ellie Kobak and Henry Forcier
 
 Recorded presentation: https://drive.google.com/file/d/1iimJg5Ihou8nB1e0fclvirv0wuSr-_CG/view?usp=sharing
 
-Link to slides: https://docs.google.com/presentation/d/1tCgei94QPSC8GW59gF0nX98t9Aq6fXtU_nR-oYXZhAg/edit?usp=sharing
+Link to slides: https://docs.google.com/presentation/d/1tCgei94QPSC8GW59gF0nX98t9Aq6fXtU_nR-oYXZhAg/edit#slide=id.p
 
 Summary: Giver is an open-access giving marketplace which tracks the impact of your charitable contributions via transactions, and alerts you along the way. The mission of Giver is to encourage charitable giving by improving the Giver experience.
 
