@@ -15,9 +15,9 @@ Our project, Versus, is an art platform where established and approved artists r
 
 **Noteable technical features**
  - curated drops. Owner of marketplace add drops not artists
- - extending the time of all auctions on late bid when there is a late bid
+ - extending the time of all auctions on late bid to avoid a late bidder from hikacking the auction
  - bid on tied auction is allowed after the auction has ended. There has to be a winner.
- - money bid in an auction is escrowed
+ - money bid in an auction is escrowed to ensure that the artist will grt the money on a settlement
  - all values ate customizable from outside the contract. Length of auction, cut percentage aso
 
 **Current Limitations**
