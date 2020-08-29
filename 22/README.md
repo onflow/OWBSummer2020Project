@@ -11,7 +11,7 @@ Our project, Versus, is an art platform where established and approved artists r
 
 #### Slides Presentation
 
-[Presentation slides](https://docs.google.com/presentation/d/17ykvt8j9A9icMgjL_CH7cyPbWp4j15QwNtRkQOmR0Dc/edit?usp=sharing)
+[Presentation slides](https://docs.google.com/presentation/d/e/2PACX-1vRN7BAYQBe4C96qmStubGS_YFW0__vGxCC4Ftce8mupRW572S8396GQtlYNadWjGy52kxleEfnNgk8J/pub?start=false&loop=false&delayms=3000)
 
 **Noteable technical features**
  - curated drops. Owner of marketplace add drops not artists
