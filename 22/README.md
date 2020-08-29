@@ -18,13 +18,13 @@ Our project, Versus, is an art platform where established and approved artists r
  - extending the time of all auctions on late bid to avoid a late bidder from hijacking the auction
  - bid on tied auction is allowed after the auction has ended. There has to be a winner.
  - money bid in an auction is escrowed to ensure that the artist will get the money on a settlement
- - all values ate customizable from outside the contract. Length of auction, cut percentage aso
+ - all values are customizable from outside the contract. Length of auction, cut percentage and so on
 
 **Current Limitations**
 
 - A way to actually pay for the art and earn money.
 - web frontend is not responsive and only looks good in firefox in certain resolutions
-- devnet deploy
+- only localaly deployed and testsed
 - the web frontend is currently using the heigh to the block to messure time. On devnet that might have to change to using unix_timestamp
 
 
