@@ -1,7 +1,7 @@
 # OWB-Project3
- Code for Non-Fungible Token and transactions between parties.
-
 Code for Non-Fungible Token and transactions between parties.
+
+Project done by Ellie Kobak and Henry Forcier
 
 Recorded presentation: https://drive.google.com/file/d/1iimJg5Ihou8nB1e0fclvirv0wuSr-_CG/view?usp=sharing
 
