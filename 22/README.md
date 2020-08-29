@@ -2,6 +2,7 @@
 
 ## Product
 
+Our project, Versus, is an art platform where established and approved artists release an artwork in the form of a weekly drop. Every week there will be an artwork released on the site, and buyers will have the ability to place bids on exclusive (1/1) artworks or edition artworks (1/10-25). Whichever auction will generate more revenue for the artist (either exclusive or editions) wins the auction, the respective number of NFTs are then minted (either 1 or 10-25).
 
 #### Recorded Presentation
 
