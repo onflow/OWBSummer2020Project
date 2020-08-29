@@ -13,7 +13,7 @@ Our project, Versus, is an art platform where established and approved artists r
 
 [Presentation slides](https://docs.google.com/presentation/d/17ykvt8j9A9icMgjL_CH7cyPbWp4j15QwNtRkQOmR0Dc/edit?usp=sharing)
 
-**Noteable technical features
+**Noteable technical features**
  - curated drops. Owner of marketplace add drops not artists
  - extending the time of all auctions on late bid when there is a late bid
  - bid on tied auction is allowed after the auction has ended. There has to be a winner.
