@@ -17,7 +17,7 @@ Our project, Versus, is an art platform where established and approved artists r
  - curated drops. Owner of marketplace add drops not artists
  - extending the time of all auctions on late bid to avoid a late bidder from hijacking the auction
  - bid on tied auction is allowed after the auction has ended. There has to be a winner.
- - money bid in an auction is escrowed to ensure that the artist will grt the money on a settlement
+ - money bid in an auction is escrowed to ensure that the artist will get the money on a settlement
  - all values ate customizable from outside the contract. Length of auction, cut percentage aso
 
 **Current Limitations**
@@ -30,7 +30,7 @@ Our project, Versus, is an art platform where established and approved artists r
 
 **Future Additions**
 
-- The contract has some points around security and composability that we should address but they depend on features in cadence beeing developed.
+- The contract has some points around security and composability that we should address but they depend on features in cadence being developed.
 - Using metadata in the NFT to store information about the art, and the art itself
 - Create a NFTEditioner that will take a NFT and edition it with a given number of editions
 
@@ -63,7 +63,7 @@ Firefox and a large monitor is recommended for a good UI experience on the web.
 2. Create a versus marketplace with 15% marketplace cut
 3. Add a drop to the marketplace with 10 editions
 4. Make a bid on the unique auction
-5. Here you can optionally go the web, login as another user and make bids aso
+5. Here you can optionally go the web, login as another user and make bids if you want 
 6. Settle the auction
 7. Print out results
 
