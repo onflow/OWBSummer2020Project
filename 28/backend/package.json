@@ -1,0 +1,60 @@
+{
+  "name": "node-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@metascraper/helpers": "^5.11.6",
+    "@nexus/schema": "^0.13.1",
+    "@onflow/fcl": "^0.0.53",
+    "@onflow/fcl-config": "^0.0.1",
+    "@onflow/sdk": "^0.0.31",
+    "@onflow/types": "^0.0.4",
+    "@prisma/cli": "^2.0.0",
+    "@prisma/client": "^2.0.0",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "elliptic": "^6.5.3",
+    "express-jwt": "^5.3.1",
+    "got": "^10.6.0",
+    "graphql": "^14.6.0",
+    "graphql-yoga": "^1.16.1",
+    "jwks-rsa": "^1.6.0",
+    "metascraper": "^5.11.6",
+    "metascraper-amazon": "^5.11.7",
+    "metascraper-author": "^5.11.6",
+    "metascraper-clearbit": "^5.11.7",
+    "metascraper-date": "^5.11.6",
+    "metascraper-description": "^5.11.6",
+    "metascraper-image": "^5.11.6",
+    "metascraper-logo": "^5.11.6",
+    "metascraper-publisher": "^5.11.6",
+    "metascraper-title": "^5.11.6",
+    "metascraper-url": "^5.11.6",
+    "mobile-detect": "^1.4.4",
+    "moment": "^2.24.0",
+    "nexus-prisma": "0.12.0",
+    "rlp": "^2.2.6",
+    "sha3": "^2.1.3"
+  },
+  "scripts": {
+    "dev": "POSTGRES_URL=postgresql://prisma:prisma@0.0.0.0:5432/prisma FRONTEND_URL=http://localhost:3000 node src",
+    "start": "node src",
+    "seed": "node prisma/seed",
+    "postinstall": "yarn prisma:generate",
+    "prisma:generate": "prisma generate --schema=./prisma/schema.prisma",
+    "migrate:save:dev": "POSTGRES_URL=postgresql://prisma:prisma@0.0.0.0:5432/prisma prisma2 migrate save --experimental",
+    "migrate:up:dev": "POSTGRES_URL=postgresql://prisma:prisma@0.0.0.0:5432/prisma prisma migrate up --experimental",
+    "migrate:up:staging": "POSTGRES_URL=postgresql://prisma:mypassword@lyra-labs-dev.cctuihe2uaxv.us-west-2.rds.amazonaws.com:5432/staging?sslaccept=accept_invalid_certs prisma migrate up --experimental",
+    "migrate:up:prod": "POSTGRES_URL=postgresql://prisma:mypassword@lyra-labs-dev.cctuihe2uaxv.us-west-2.rds.amazonaws.com:5432/production?sslaccept=accept_invalid_certs prisma migrate up --experimental"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "trailingComma": "all"
+  },
+  "engines": {
+    "node": "12"
+  }
+}

@@ -1,0 +1,3 @@
+export POSTGRES_URL=postgresql://prisma:prisma@localhost:5432/prisma
+export BACKEND_URL=http://localhost:4000/graphql
+export FRONTEND_URL=http://localhost:3000

@@ -1,0 +1,22 @@
+{
+  "name": "lyra-labs",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "generate": "docker exec -it frontend npm run generate",
+    "start": "docker-compose up",
+    "build": "docker-compose build",
+    "stop": "docker-compose down",
+    "clean": "docker system prune -af",
+    "clean:volumes": "docker volume prune -f",
+    "seed": "docker exec -it prisma npm run seed",
+    "ci:deploy:staging": "NOW_ORG_ID=$NOW_ORG_ID NOW_PROJECT_ID=$NOW_PROJECT_ID now -A staging.now.json --target=staging --token=$NOW_TOKEN",
+    "ci:deploy:prod": "NOW_ORG_ID=$NOW_ORG_ID NOW_PROJECT_ID=$NOW_PROJECT_ID now --prod -A prod.now.json --token=$NOW_TOKEN"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "10"
+  }
+}
