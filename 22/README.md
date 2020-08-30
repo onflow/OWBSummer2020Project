@@ -33,6 +33,7 @@ Our project, Versus, is an art platform where established and approved artists r
 - Using metadata in the NFT to store information about the art, and the art itself
 - Create a NFTEditioner that will take a NFT and edition it with a given number of editions
 
+
 ## Technical
 
 All the code for versus is located in our [github organization](https://github.com/versus-flow)
