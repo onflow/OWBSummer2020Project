@@ -1,0 +1,36 @@
+{
+  "./dev/noop": [
+    {
+      "id": "./node_modules/next/dist/client/dev/noop.js",
+      "name": "./node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/0.js",
+      "publicPath": "static/chunks/0.js"
+    }
+  ],
+  "@apollo/react-ssr": [
+    {
+      "id": "./node_modules/@apollo/react-ssr/lib/react-ssr.esm.js",
+      "name": "./node_modules/@apollo/react-ssr/lib/react-ssr.esm.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@apollo/react-ssr/node_modules/@apollo/react-hooks/lib/react-hooks.esm.js",
+      "name": "./node_modules/@apollo/react-ssr/node_modules/@apollo/react-hooks/lib/react-hooks.esm.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-dom/cjs/react-dom-server.browser.development.js",
+      "name": "./node_modules/react-dom/cjs/react-dom-server.browser.development.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-dom/server.browser.js",
+      "name": "./node_modules/react-dom/server.browser.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ]
+}

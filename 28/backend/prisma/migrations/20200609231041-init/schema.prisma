@@ -1,0 +1,132 @@
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "debian-openssl-1.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url = "***"
+}
+
+model User {
+  id             String        @default(cuid()) @id
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+  email          String        
+  role           Role          @default(USER)
+  firstName      String?
+  lastName       String?
+  name           String?
+  name_lower     String?
+  username       String?       @unique
+  username_lower String?       @unique
+  headline       String?
+  avatar         String?
+  auth0id        String        @unique
+  identity       String?
+  privateKey     String
+  follows        User[]        @relation("follows", references: [id])
+  followedBy     User[]        @relation("follows", references: [id])
+  address        String
+  followedTopics Topic[]       @relation(references: [id])
+  comments       Comment[]
+  commentVotes   CommentVote[]
+  votes          Vote[]
+  posts          Post[]
+}
+
+model Topic {
+  id             String   @default(cuid()) @id
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+  name           String
+  slug           String   @unique
+  description    String?
+  image          String?
+  followersCount Int?
+  postsCount     Int?
+  trending       Boolean?
+  posts          Post[]
+  followedBy     User[]   @relation(references: [id])
+}
+
+model Post {
+  id          String    @default(cuid()) @id
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  author      String?
+  date        String?
+  description String?
+  image       String?
+  logo        String?
+  publisher   String?
+  title       String?
+  url         String
+  archived    Boolean   @default(false)
+  pinned      Boolean   @default(false)
+  comments    Comment[]
+  votes       Vote[]
+  submitter   User      @relation(fields: [submitterId],references: [id])
+  submitterId String    
+}
+
+model Comment {
+  id        String        @default(cuid()) @id
+  createdAt DateTime      @default(now())
+  updatedAt DateTime      @updatedAt
+  text      String
+  post      Post?         @relation(references: [id], fields: [postId])
+  postId    String?
+  author    User          @relation(references: [id], fields:[authorId])
+  authorId  String
+  parent    Comment?      @relation("commentReplies", fields: [parentId], references: [id])
+  parentId  String?
+  replies   Comment[]     @relation("commentReplies")
+  votes     CommentVote[]
+}
+
+model CommentVote {
+  id        String   @default(cuid()) @id
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  user      User     @relation(references: [id], fields:[userId])
+  userId    String
+  comment   Comment  @relation(references: [id], fields:[commentId])
+  commentId String
+}
+
+model Vote {
+  id        String   @default(cuid()) @id
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  user      User     @relation(references: [id], fields: [userId])
+  userId    String
+  post      Post     @relation(references: [id], fields: [postId])
+  postId    String   
+}
+
+model Section {
+  id        String   @default(cuid()) @id
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  date      String   @unique
+  posts     Post[]
+}
+
+model SignedUpload {
+  id            String   @default(cuid()) @id
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  signedRequest String
+  url           String
+}
+
+enum Role {
+  ADMIN
+  USER
+}
+
+enum PostType {
+  PRODUCT
+  LINK
+}

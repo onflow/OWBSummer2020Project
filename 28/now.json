@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "frontend/next.config.js",
+      "use": "@now/next"
+    },
+    {
+      "src": "backend/src/index.js",
+      "use": "@now/node@canary",
+      "config": { "maxLambdaSize": "20mb" }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/graphql",
+      "dest": "/backend/src/index.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/frontend/$1",
+      "headers": {
+        "x-request-path": "$1"
+      }
+    }
+  ]
+}

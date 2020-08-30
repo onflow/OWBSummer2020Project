@@ -1,0 +1,4 @@
+# Prisma Migrate lockfile v1
+
+20200609231041-init
+20200810233034-add-wallet-to-user
