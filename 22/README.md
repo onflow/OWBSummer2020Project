@@ -16,7 +16,7 @@ Our project, Versus, is an art platform where established and approved artists r
 **Noteable Technical Features**
  - Curated drops; owner of marketplace add drops not artists
  - Extending the time of all auctions on late bid to avoid a late bidder from hijacking the auction
- - Bid on tied auction is allowed after the auction has ended. There has to be a winner.
+ - Bid on tied auction is allowed after the auction has ended. There has to be a winner
  - Money bid in an auction is escrowed to ensure that the artist will get the money on a settlement
  - All values are customizable from outside the contract. Length of auction, cut percentage and so on
 
@@ -25,7 +25,7 @@ Our project, Versus, is an art platform where established and approved artists r
 - A way to actually pay for the art and earn money.
 - Web frontend is not responsive and only looks good in firefox in certain resolutions
 - Only localy deployed and tested
-- The web frontend is currently using the heigh to the block to messure time. On devnet that might have to change to using unix_timestamp
+- The web frontend is currently using the height to the block to measure time. On devnet that might have to change to using unix_timestamp
 
 **Future Additions**
 
@@ -39,8 +39,8 @@ All the code for versus is located in our [github organization](https://github.c
 
 The relevant technical parts and their state at the end of OWB can be found at the following links
 
- - [ contracts ](https://github.com/versus-flow/auction-flow-contract/tree/OWB)
- - [ website ](https://github.com/versus-flow/versus-action-website/tree/OWB)
+ - [ Contracts ](https://github.com/versus-flow/auction-flow-contract/tree/OWB)
+ - [ Website ](https://github.com/versus-flow/versus-action-website/tree/OWB)
 
 Part of the contracts was made in cooperation with team #23.
 
@@ -49,10 +49,10 @@ As part of the OWB program team 22 and team 23 also cooperated on making [a tool
 ### Demo
 
 Follow the readme instructions in 
-[ contracts ](https://github.com/versus-flow/auction-flow-contract/tree/OWB) for a pure terminal based demo. 
+[ Contracts ](https://github.com/versus-flow/auction-flow-contract/tree/OWB) for a pure terminal based demo. 
 
 Follow the instructions in the 
-[ website ](https://github.com/versus-flow/versus-action-website/tree/OWB) repo for a mixed demo. 
+[ Website ](https://github.com/versus-flow/versus-action-website/tree/OWB) repo for a mixed demo. 
 
 Firefox and a large monitor is recommended for a good UI experience on the web.
 
