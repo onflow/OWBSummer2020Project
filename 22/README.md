@@ -1,32 +1,31 @@
-# Versus
+# Versus – Better for Art
 
 ## Product
 
-Our project, Versus, is an art platform where established and approved artists release an artwork in the form of a weekly drop. Every week there will be an artwork released on the site, and buyers will have the ability to place bids on exclusive (1/1) artworks or edition artworks (1/10-25). Whichever auction will generate more revenue for the artist (either exclusive or editions) wins the auction, the respective number of NFTs are then minted (either 1 or 10-25).
+Our project, Versus, is an art platform where established and approved artists release an artwork in the form of a weekly drop. Each week there will be an artwork released on the site, and buyers will have the ability to place bids on exclusive (1/1) artworks or edition artworks (1/10-25). Whichever auction  generates more revenue for the artist (either exclusive or editions) wins the auction, and the respective number of NFTs are then minted (either 1 or 10-25).
 
 #### Recorded Presentation
 
-- [product video](https://www.youtube.com/watch?v=zv5lMRjC73s&feature=youtu.be)
-- [technical video](https://www.youtube.com/watch?v=vr2Zo0hrkH0&feature=youtu.be)
+- [Product video](https://www.youtube.com/watch?v=zv5lMRjC73s&feature=youtu.be)
+- [Technical video](https://www.youtube.com/watch?v=vr2Zo0hrkH0&feature=youtu.be)
 
 #### Slides Presentation
 
 [Presentation slides](https://docs.google.com/presentation/d/e/2PACX-1vRN7BAYQBe4C96qmStubGS_YFW0__vGxCC4Ftce8mupRW572S8396GQtlYNadWjGy52kxleEfnNgk8J/pub?start=false&loop=false&delayms=3000)
 
-**Noteable technical features**
- - curated drops. Owner of marketplace add drops not artists
- - extending the time of all auctions on late bid to avoid a late bidder from hijacking the auction
- - bid on tied auction is allowed after the auction has ended. There has to be a winner.
- - money bid in an auction is escrowed to ensure that the artist will get the money on a settlement
- - all values are customizable from outside the contract. Length of auction, cut percentage and so on
+**Noteable Technical Features**
+ - Curated drops; owner of marketplace add drops not artists
+ - Extending the time of all auctions on late bid to avoid a late bidder from hijacking the auction
+ - Bid on tied auction is allowed after the auction has ended. There has to be a winner.
+ - Money bid in an auction is escrowed to ensure that the artist will get the money on a settlement
+ - All values are customizable from outside the contract. Length of auction, cut percentage and so on
 
 **Current Limitations**
 
 - A way to actually pay for the art and earn money.
-- web frontend is not responsive and only looks good in firefox in certain resolutions
-- only localaly deployed and testsed
-- the web frontend is currently using the heigh to the block to messure time. On devnet that might have to change to using unix_timestamp
-
+- Web frontend is not responsive and only looks good in firefox in certain resolutions
+- Only localy deployed and tested
+- The web frontend is currently using the heigh to the block to messure time. On devnet that might have to change to using unix_timestamp
 
 **Future Additions**
 
@@ -57,7 +56,7 @@ Follow the instructions in the
 
 Firefox and a large monitor is recommended for a good UI experience on the web.
 
-#### What happends in the demo
+#### What happens in the demo
 
 1. Install all contracts
 2. Create a versus marketplace with 15% marketplace cut
