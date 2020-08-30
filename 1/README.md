@@ -5,9 +5,9 @@ Proof of concept to allow NBA Top Shot moments to be autographed
 - Autographs are backed💯% on-chain
 - Autographs maintain the author address for authenticity
 - Autographs can be added to any moment by anyone, but only can be removed by moment owner
-- This project will be extended to allow personalization of any NFT with autographs or any other content (tickets, audio, images, etc.)
+- This project will be extended to allow personalization of any NFT, via autographs or any other content (tickets, audio, images, etc.)
 
-![](https://media.giphy.com/media/3o6wrmlVHXz7jwAjsI/giphy.gif)
+![NBA Player Autographs Camera Lens](https://media.giphy.com/media/3o6wrmlVHXz7jwAjsI/giphy.gif)
 
 ## OWB Deliverables
 
@@ -24,7 +24,7 @@ Proof of concept to allow NBA Top Shot moments to be autographed
 1. Run `npm install` to install UI package dependencies
 1. Run `npm run dev:wallet` to run fcl wallet
 1. Run `npm run serve` in a separate terminal to start app
-1. Open app at http://localhost:8081/
+1. Open app at [http://localhost:8081/](http://localhost:8081/)
 1. Login with any credentials (remember for later) to initialize test user (0xe03daebed8ca0615)
 1. Execute init_data transaction as TopShotAdmin (0x179b6b1cb6755e31) to initialize moments for test user
 1. Refresh app and login as test user using the same credentials used to initialize to see moments
@@ -79,4 +79,3 @@ Proof of concept to allow NBA Top Shot moments to be autographed
 - @Matthewhughes3
 - @bowienan
 - @alxocity
- 
