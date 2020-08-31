@@ -4,7 +4,7 @@ With Fantasy League game we are aiming to create a marketplace and fantasy card 
 ![](https://media.giphy.com/media/3ofT5QM8iEcBwbEwQU/giphy.gif)
 
 - [Flow playground](https://play.onflow.org/5f0ea0c9-79a3-42c9-a6e9-7fec9f31f644)
-- [Google Slide](https://docs.google.com/presentation/d/1RLfhmsiTg1sLJPRL9AD67TMFzB3A1MeUrw7RI6qaikU/edit?usp=sharing)
+- [Google Slide](https://docs.google.com/presentation/d/1RLfhmsiTg1sLJPRL9AD67TMFzB3A1MeUrw7RI6qaikU/edit?usp=sharing )
 - [Youtube video](https://youtu.be/DM9uMi4ZIV0)
 
 ## How to run the demo on the Flow playground
