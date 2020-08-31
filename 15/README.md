@@ -6,8 +6,8 @@ to combat the negative effects of a Zeemz Virus.
 
 
 ### Presentation
-[Kitty Vortex Product Video]()
-[Kitty Vortex Technical Video]()
+[Kitty Vortex Product Video (1:06)](https://youtu.be/zuB1waK64SM)<br />
+[Kitty Vortex Technical Video (4:21)](https://youtu.be/p0BLXZvk99s)<br />
 
 
 ### Pitchdeck
@@ -56,21 +56,21 @@ zStars, and zViruses.
 
 
 ### Current Limitations
-1. I wasn't sure how to make the Forge Vault accept zStars and Collars in order to create the zCollars. So, right now, the zCollar is created in the Forge Vault,
-I believe, I need to combine contracts so that the multiple resource types are in a single contract. But, I'm not sure that that's right. 
+1. I wasn't sure how to make the Forge Vault accept zStars and Collars in order to create the zCollars. I attempted to add them both as deposits, and met with resistance. Currently, the zCollar is created in the Forge Vault, and the Forge is a glint in another repo's eye. 
 2. The frontend uses Google Sites which is not friendly to custom NodeJS code, so once the smart contracts are finalized, then the frontend needs
 to move to Firebase.
 
 
 ### Future Additions
-1. Star and Virus statistics (rarity, typology)
+1. Star and Virus rarity, typology, quests
 2. Firebase PWA
 3. Allow user to name their stars
 4. Link in the images (virus, chests, stars)
+5. Attach the scienc-y stats to the [viruses](https://github.com/pushingbhutons/kittyVortex/blob/master/cdc/zvirus.cdc)
 
 NOTE: 
 The in-depth future plans are written as notes inside each CDC contract located in the following repo:
-https://github.com/pushingbhutons/kittyVortex
+https://github.com/pushingbhutons/kittyVortex/cdc/README.md
 
 
 
