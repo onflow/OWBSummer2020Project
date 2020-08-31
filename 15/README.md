@@ -66,6 +66,7 @@ to move to Firebase.
 1. Star and Virus statistics (rarity, typology)
 2. Firebase PWA
 3. Allow user to name their stars
+4. Link in the images (virus, chests, stars)
 
 NOTE: 
 The in-depth future plans are written as notes inside each CDC contract located in the following repo:
