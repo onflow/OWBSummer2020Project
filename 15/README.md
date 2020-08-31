@@ -7,36 +7,23 @@ to combat the negative effects of a Zeemz Virus.
 
 ### Presentation
 [Kitty Vortex Product Video]()
-[Kitty Vortex Technical Video ()
+[Kitty Vortex Technical Video]()
 
 
 ### Pitchdeck
-[Kitty Vortex Slides]()
+[Kitty Vortex Slides](https://docs.google.com/presentation/d/1R7K78iVI2lzskXgsBCJua_m-A2T19r4c6Ti02CuGtVE/edit?usp=sharing)
 
 ### Flow Playground
 https://play.onflow.org/798912ca-aefa-4f20-91db-c05e452ecc33
 
+### PoC Website 
+https://sites.google.com/view/kitty-vortex-travel
 
 ## Project Review
 CryptoKitties are digital collectibles that can be bred to create more digital collectibles. The Kitty Vortex offers owners of CKs
 an opportunity to play inside an RPG alternate universe (The Pu'Shing Bhu'Tons 'Verse). There are many dangers lurking in the 'verse, 
 those who choose to travel through the Kitty Vortex can receive Zeemz Chests which each have a random chance of holding Collars, zCollars, 
 zStars, and zViruses. 
-
-
-### Product: How It Works
-1. A logged in CryptoKitty owner finds a Zeemz Chest inside the Kitty Vortex.
-2. The CK owner chooses to:
-    - Keep the chest OR Drop the chest
-        - If they keep the chest, then they can Open it or Gift it
-        - If they drop the chest, then it returns to the Kitty Vortex
-3. The CK owner chooses to:
-    - Open the chest OR Gift the chest
-        - If they open the chest, then they'll receive a random treasure (zCollar, zStar, zVirus)
-		    - When they receive a zCollar or a zStar, then they receive MP and HP bonuses
-			- When they receive a zVirus, they take a MP and HP hit
-		- If they gift the chest, then they'll transfer ownership of the unopened chest to another account
-4. A CryptoKitty that is equipped with a zCollar will be able to enter the Kitty Vortex to help fight the virus
 
 
 ### Technical: How It Works
@@ -53,6 +40,21 @@ zStars, and zViruses.
 11. Congrats! You have two accounts with a Zeemz Chest in each! 
 
 
+### Product: How It Will Work
+1. A logged in CryptoKitty owner finds a Zeemz Chest inside the Kitty Vortex.
+2. The CK owner chooses to:
+    - Keep the chest OR Drop the chest
+        - If they keep the chest, then they can Open it or Gift it
+        - If they drop the chest, then it returns to the Kitty Vortex
+3. The CK owner chooses to:
+    - Open the chest OR Gift the chest
+        - If they open the chest, then they'll receive a random treasure (zCollar, zStar, zVirus)
+		    - When they receive a zCollar or a zStar, then they receive MP and HP bonuses
+			- When they receive a zVirus, they take a MP and HP hit
+		- If they gift the chest, then they'll transfer ownership of the unopened chest to another account
+4. A CryptoKitty that is equipped with a zCollar will be able to enter the Kitty Vortex to help fight the virus
+
+
 ### Current Limitations
 1. I wasn't sure how to make the Forge Vault accept zStars and Collars in order to create the zCollars. So, right now, the zCollar is created in the Forge Vault,
 I believe, I need to combine contracts so that the multiple resource types are in a single contract. But, I'm not sure that that's right. 
@@ -64,6 +66,10 @@ to move to Firebase.
 1. Star and Virus statistics (rarity, typology)
 2. Firebase PWA
 3. Allow user to name their stars
+
+NOTE: 
+The in-depth future plans are written as notes inside each CDC contract located in the following repo:
+https://github.com/pushingbhutons/kittyVortex
 
 
 
