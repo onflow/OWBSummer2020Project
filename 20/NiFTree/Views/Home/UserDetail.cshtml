@@ -1,0 +1,65 @@
+@model GreatSmilesWrapper
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Photo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <div class="row">
+        <div class="col-sm-10">
+            <h1>Activity Page</h1>
+        </div>
+        <div class="col-sm-2">
+            <a href="/dashboard">Dashboard</a>
+        </div>
+        <div class="col-sm-2">
+            <a href="/logout">Logout</a>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-sm-10 offset-sm-1">
+            <h1>Welcome to blanks's page</h1>
+            <table class="table">
+                <thead>
+                    <th>User's Story:</th>
+                    <th>Photos:</th>
+                </thead>
+                <tbody>
+                    @foreach (User user in Model.AllUsers)
+                    {
+                        <tr>
+                            <td>@user.UserStory</td>
+                            <ul>
+                                <td>
+                                    @foreach(Photo photo in user.AllPhotos)
+                                    {
+                                        <li>@photo.PhotoName</li>
+                                    }
+                                </td>
+                            </ul>
+                        </tr>
+                    }
+                        @* <tr>
+                            <td>@user.UserStory</td>
+                            <td>
+                            @foreach(Photo photo in user.AllPhotos)
+                            {
+                                <div>
+                                    <a href="/photos/@photo.PhotoId"></a>@photo.PhotoName
+                                </div>
+                                <br>
+                            }
+                            </td>
+                        </tr> *@
+                </tbody>
+            </table>
+            }
+        </div>
+    </div>
+</body>
+</html>
