@@ -11,8 +11,8 @@ Proof of concept to allow NBA Top Shot moments to be autographed
 
 ## OWB Deliverables
 
-- Slide Presentation (coming soon...)
-- Video Presentation (coming soon...)
+- [Slide Presentation](https://docs.google.com/presentation/d/1_wvwPyVowC09ZqShozLz3m7earVxPN9o1rv6vqNhqwQ)
+- [Video Presentation](https://youtu.be/COAuF7El6Xc)
 - Functional proof of concept
 
 ## Running proof of concept locally
