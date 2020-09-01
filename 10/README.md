@@ -20,7 +20,8 @@ Customers are passive participants, not owners of their data.
 
 ## Current limitations
 
-It is very complex and hard for retailers to be able to decide what UCV and CV values a customer would need to interact with other retailers if spending multiple types of tokens. Also, as of now, we do not have any connections between Retailers and NonProfits, because if a retailer was to donate to nonprofits and the nonprofits --> a customer, the retailers tokens could be spent somewhere without doing anything.
+- It is very complex and hard for retailers to be able to decide what UCV and CV values a customer would need to interact with other retailers if spending multiple types of tokens. Also, as of now, we do not have any connections between Retailers and NonProfits, because if a retailer was to donate to nonprofits and the nonprofits --> a customer, the retailers tokens could be spent somewhere without doing anything.
+- The naming of NFTs is pretty hard coded since dictionaries can only store 1 type of name.
 
 ## Contracts, Transactions & Scripts
 
