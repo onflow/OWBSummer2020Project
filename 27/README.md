@@ -4,7 +4,7 @@
 CertaFox is a service that makes it easy to create and share certificates. With CertaFox you can be sure that a certificate is valid without going through the exhaustive work of checking references.
 
 ## Deliverables
-Video (Will submit later today)
+[Product Video](https://youtu.be/hhhqK6ub7nk)
 [Presentation](https://docs.google.com/presentation/d/1WBoBpX7h7j0b2pnm5RsJZHECfQqSxWuzM9REIOdx5bw/edit?usp=sharing)
 [Project Repository](https://github.com/Lepozepo/owb-27)
 
