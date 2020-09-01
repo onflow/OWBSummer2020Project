@@ -7,7 +7,7 @@ This is the slides to our presentation: https://docs.google.com/presentation/d/1
 
 Promo video: https://drive.google.com/file/d/1Ar5uVSH_hXPOOZi6c569JuP4pdzcZtkZ/view?usp=sharing
 
-Technical video: https://drive.google.com/file/d/14ZaaWbiG3Rv5UgaMg_5EuEziMVojpNUg/view
+Technical video: https://youtu.be/_IzQNsV2xVs
 
 ## Purpose
 
