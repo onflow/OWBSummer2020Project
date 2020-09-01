@@ -1,0 +1,47 @@
+@model Competition
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10">
+                <h1>Add a Competition</h1>
+            </div>
+        </div>
+        <div class="row">
+            <form asp-action="AddCompetition" asp-controller="Home" method="post">
+                <div class="form-group row">
+                    <label asp-for="CompetitionTitle" class="col-sm-4"></label>
+                    <span class="col-sm-8 text-danger" asp-validation-for="CompetitionTitle"></span>
+                    <input asp-for="CompetitionTitle" class="col-sm-12 form-control">
+                </div>
+                <div class="form-group row">
+                    <label asp-for="Description" class="col-sm-4"></label>
+                    <span class="col-sm-8 text-danger" asp-validation-for="Description"></span>
+                    <input asp-for="Description" class="col-sm-12 form-control">
+                </div>
+                <div class="form-group row">
+                    <span class="col-sm-8 offset-sm-4 text-danger" asp-validation-for="Date"></span>
+                    <label asp-for="Date" class="col-sm-4"></label>
+                    <input asp-for="Date">
+                </div>
+                <div class="form-group row">
+                    <span class="col-sm-8 offset-sm-4 text-danger" asp-validation-for="Time"></span>
+                    <label asp-for="Time" class="col-sm-4"></label>
+                    <input asp-for="Time">
+                </div>
+                <div class="form-group row">
+                    <input type="submit" value="Upload!" class="col-sm-4 offset-sm-4 btn btn-primary">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

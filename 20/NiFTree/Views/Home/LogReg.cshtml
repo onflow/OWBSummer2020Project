@@ -1,0 +1,79 @@
+@model LogRegWrapper
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Welcome To NiFTree!</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <form asp-action="Register" asp-controller="Home" method="post">
+                    <div class="form-group row">
+                        <span class="col-sm-8 offset-sm-4 text-danger" asp-validation-for="Register.FirstName"></span>
+                        <label asp-for="Register.FirstName" class="col-sm-4"></label>
+                        <input asp-for="Register.FirstName" class="col-sm-8 form-control">
+                    </div>
+                    <div class="form-group row">
+                        <span class="col-sm-8 offset-sm-4 text-danger" asp-validation-for="Register.LastName"></span>
+                        <label asp-for="Register.LastName" class="col-sm-4"></label>
+                        <input asp-for="Register.LastName" class="col-sm-8 form-control">
+                    </div>
+                    <div class="form-group row">
+                        <span class="col-sm-8 offset-sm-4 text-danger" asp-validation-for="Register.Email"></span>
+                        <label asp-for="Register.Email" class="col-sm-4"></label>
+                        <input asp-for="Register.Email" class="col-sm-8 form-control">
+                    </div>
+                    <div class="form-group row">
+                        <span class="col-sm-8 offset-sm-4 text-danger" asp-validation-for="Register.IsVerified"></span>
+                        <label asp-for="Register.IsVerified" class="col-sm-4"></label>
+                        <input asp-for="Register.IsVerified" class="col-sm-8 form-control">
+                    </div>
+                    <div class="form-group row">
+                        <span class="col-sm-8 offset-sm-4 text-danger" asp-validation-for="Register.UserStory"></span>
+                        <label asp-for="Register.UserStory" class="col-sm-4"></label>
+                        <input asp-for="Register.UserStory" class="col-sm-8 form-control">
+                    </div>
+                    <div class="form-group row">
+                        <span class="col-sm-8 offset-sm-4 text-danger" asp-validation-for="Register.Password"></span>
+                        <label asp-for="Register.Password" class="col-sm-4"></label>
+                        <input asp-for="Register.Password" class="col-sm-8 form-control">
+                    </div>
+                    <div class="form-group row">
+                        <span class="col-sm-8 offset-sm-4 text-danger" asp-validation-for="Register.Confirm"></span>
+                        <label asp-for="Register.Confirm" class="col-sm-4"></label>
+                        <input asp-for="Register.Confirm" class="col-sm-8 form-control">
+                    </div>
+                    <div class="form-group row">
+                        <input type="submit" value="Register" class="col-sm-4 offset-sm-4 btn btn-primary">
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-6">
+                <form asp-action="Login" asp-controller="Home" method="post">
+                    <div class="form-group row">
+                        <span class="col-sm-8 offset-sm-4 text-danger" asp-validation-for="Login.Email"></span>
+                        <label asp-for="Login.Email" class="col-sm-4"></label>
+                        <input asp-for="Login.Email" class="col-sm-8 form-control">
+                    </div>
+                    <div class="form-group row">
+                        <span class="col-sm-8 offset-sm-4 text-danger" asp-validation-for="Login.Password"></span>
+                        <label asp-for="Login.Password" class="col-sm-4"></label>
+                        <input asp-for="Login.Password" class="col-sm-8 form-control">
+                    </div>
+                    <div class="form-group row">
+                        <input type="submit" value="Log In" class="col-sm-4 offset-sm-4 btn btn-primary">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

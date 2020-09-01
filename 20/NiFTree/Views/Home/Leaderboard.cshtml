@@ -1,0 +1,356 @@
+@model GreatSmilesWrapper
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../../wwwroot/css/board.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>  
+    <script type="text/javascript">
+        $(window).on("load resize ", function() {
+            var scrollWidth = $('.tbl-content').width() - $('.tbl-content table').width();
+            $('.tbl-header').css({'padding-right':scrollWidth});
+        }).resize();
+    </script>  
+</head>
+<body>
+    <section>
+        <h1>Leaderboard</h1>
+        <div class="tbl-header">
+            <table cellpadding="0" cellspacing="0" border="0">
+                <thead>
+                    <tr>
+                        <th>Competition:</th>
+                        <th>Description:</th>
+                        <th>Rewards:</th>
+                        <th>Current Rankings:</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <div class="tbl-content">
+            <table cellpadding="0" cellspacing="0" border="0">
+                <tbody>
+                    @foreach(Competition Competition in Model.AllCompetitions)
+                    {
+                    <tr>
+                        <td>@Competition.CompetitionTitle</td>
+                        <td>@Competition.Description</td>
+                        <td>Golden PhotoFrame</td>
+                        @* <ol>
+                            @foreach(User entrant in Competition.AllEntrants)
+                            {
+                                <li>@entrant.FirstName</li>
+                            }
+                        </ol> *@
+                        <td>
+                            <ol>
+                                @foreach(Entrant Entrant in Model.AllEntrants)
+                                {
+                                    <li>@Entrant.EntrantName</li>
+                                }
+                            </ol>
+                        </td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+            <div class="row">
+                <a href="/competitions/entrants/new" class="col-sm-4 offset-sm-8">Create an Entrant</a>
+            </div>
+        </div>
+            @* <tbody>
+                <tr>
+                    <td>AAC</td>
+                    <td>AUSTRALIAN COMPANY </td>
+                    <td>Beans</td>
+                    <td>Beans</td>
+                    <td>Beans</td>
+                </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+              <tr>
+                <td>AAC</td>
+                <td>AUSTRALIAN COMPANY </td>
+                <td>Beans</td>
+                <td>Beans</td>
+                <td>Beans</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+</body>
+<script src="main.js"></script>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10">
+                <h1>Leaderboards!</h1>
+            </div>
+            <div class="col-sm-2">
+                <a href="/dashboard">Dashboard</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 offset-sm-1">
+                <table class="table">
+                    <thead>
+                        <th>Competition:</th>
+                        <th>Description:</th>
+                        <th>Rewards:</th>
+                        <th>Current Rankings:</th>
+                    </thead>
+                    <tbody>
+                        @foreach(Competition Competition in Model.AllCompetitions)
+                        {
+                        <tr>
+                                <td>@Competition.CompetitionTitle</td>
+                                <td>@Competition.Description</td>
+                                <td>Golden PhotoFrame</td>
+                                @* <ol>
+                                    @foreach(User entrant in Competition.AllEntrants)
+                                    {
+                                        <li>@entrant.FirstName</li>
+                                    }
+                                </ol>
+                            <td>
+                                <ol>
+                                    @foreach(Entrant Entrant in Model.AllEntrants)
+                                    {
+                                        <li>@Entrant.EntrantName</li>
+                                    }
+                                </ol>
+                            </td>
+                        </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <a href="/competitions/entrants/new" class="col-sm-4 offset-sm-8">Create an Entrant</a>
+        </div> *@
+    </section>
+</body>
+</html>

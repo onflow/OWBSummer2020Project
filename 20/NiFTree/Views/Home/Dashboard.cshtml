@@ -1,0 +1,80 @@
+@model GreatSmilesWrapper
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10">
+                <h1>Welcome to NiFTree!</h1>
+            </div>
+            <div class="col-sm-2">
+                <a href="/logout">Logout</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 offset-sm-1">
+                <table class="table">
+                    <thead>
+                        <th>Photo Name:</th>
+                        <th>Smiler Count:</th>
+                        <th>Curator:</th>
+                    </thead>
+                    <tbody>
+                        @foreach(Photo Photo in Model.AllPhotos)
+                        {
+                            <tr>
+                                <td><a href="/photos/@Photo.PhotoId">@Photo.PhotoName</a></td>
+                                <td>@Photo.PhotoSmilers.Count</td>
+                                <td>@Photo.Official.FirstName</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 offset-sm-1">
+                <table class="table">
+                    <thead>
+                        <th>Competition:</th>
+                        <th>Entrant Count:</th>
+                        <th>Rewards:</th>
+                    </thead>
+                    <tbody>
+                        @foreach(Competition Competition in Model.AllCompetitions)
+                        {
+                        <tr>
+                            <td>
+                                @Competition.CompetitionTitle
+                            </td>
+                            <div>
+                                <td>
+                                    @Model.AllEntrants.Count
+                                </td>
+                                <td>Golden PhotoFrame</td>
+                            </div>
+                        </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <a href="/photos/new" class="col-sm-4 offset-sm-8">Create a Photo</a>
+    </div>
+    <div class="row">
+        <a href="/competitions/new" class="col-sm-4 offset-sm-8">Create a Competition</a>
+    </div>
+    <div class="row">
+        <a href="/leaderboard" class="col-sm-4 offset-sm-8">Leaderboard</a>
+    </div>
+</body>
+</html>
