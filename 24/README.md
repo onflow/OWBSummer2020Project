@@ -1,5 +1,21 @@
+# [Raro](https://raro.world/) 
+
+A platform for creators and collectors where they can easily create, verify and trade digital items through the secure marketplace and easy-to-use interface.
+
+<br />
+
+### Video and slides
+
+* [Video pitch](https://youtu.be/wVCBPtO2BYE)
+* [SLide deck](https://drive.google.com/file/d/17sXwRFYxqdNhcQysAVEFi3LVbzXqN2pD/view?usp=sharing)
+
+<br />
+
 # Magic-Converter
 
+A tool that helps convert NFTs from Ethereum to Flow blockchain.
+
+<br />
 
 
 ## Link to live demo [here](https://magic-converter.vercel.app/)
