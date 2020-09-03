@@ -9,13 +9,16 @@ A platform for creators and collectors where they can easily create, verify and 
 
 <br />
 
-# Magic-Converter
+# Magic Converter
 
 A tool that helps convert NFTs from Ethereum to Flow blockchain.
 
-## Link to live demo [here](https://magic-converter.vercel.app/)
+### [live demo](https://magic-converter.vercel.app/)
    
-   **NOTE:** you'll need a Creature NFT first to convert it to flow. Reach out to us on discord `@Jayesh_Wayesh#6931` and we'll send you a cute NFT of your choice to convert it to Flow :wink: 
+   **NOTE:** 
+   * You'll need a Creature NFT first to convert it to flow. Reach out to us on discord `@Jayesh_Wayesh#6931` and we'll send you a cute NFT of your choice to convert    it to Flow :wink: 
+
+   * Don't forget to change your network to `rinkeby` else you won't be able to see NFT's.
 
 <br />
 
@@ -37,7 +40,6 @@ A tool that helps convert NFTs from Ethereum to Flow blockchain.
     yarn start
     ```
     view on http://localhost:3000/
-
 
 <br />
 
