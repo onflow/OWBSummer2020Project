@@ -1,0 +1,10 @@
+{
+	"accounts": {
+		"service": {
+			"address": "f8d6e0586b0a20c7",
+			"privateKey": "5e967c6c6370b4b243d107794f6096cc346415142eacb72ed64ccfee4e4ae8f5",
+			"sigAlgorithm": "ECDSA_P256",
+			"hashAlgorithm": "SHA3_256"
+		}
+	}
+}

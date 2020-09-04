@@ -1,0 +1,1384 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+
+.deploy-contract{
+  position: absolute;
+  width: 94px;
+  height: 40px;
+  left: 200px;
+  top: 200px;
+
+  border: 1px solid #0025FF;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: rgba(229, 229, 229);
+
+}
+
+/********************************************************************/
+
+.side-bar{
+  position: fixed;
+  width: 72px;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.home{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 20px;
+  top: 89px;
+
+  align-self: center;
+}
+
+.collec{
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  left: 21px;
+  top: 175px;
+
+  align-self: center;
+}
+
+.marketplace{
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  left: 20px;
+  top: 264px;
+
+  align-self: center;
+}
+
+.star{
+  position: absolute;
+  height: 32px;
+  width: 32px;
+  left: 19px;
+  top: 356px;
+
+  align-self: center;
+}
+
+.about{
+  position: absolute;
+  height: 32px;
+  width: 32px;
+  left: 19px;
+  bottom: 20px;
+
+  align-self: center;
+}
+
+.home-text{
+  position: absolute;
+  width: 44px;
+  height: 10px;
+  left: 14px;
+  top: 132px;
+
+  background: #E5E5E5;
+  border-radius: 5px;
+}
+
+.collec-text{
+  position: absolute;
+  width: 44px;
+  height: 10px;
+  left: 14px;
+  top: 216px;
+
+  background: #E5E5E5;
+  border-radius: 5px;
+}
+
+.marketplace-text{
+  position: absolute;
+  width: 44px;
+  height: 10px;
+  left: 14px;
+  top: 309px;
+
+  background: #E5E5E5;
+  border-radius: 5px;
+}
+
+.star-text{
+  position: absolute;
+  width: 44px;
+  height: 10px;
+  left: 14px;
+  top: 397px;
+
+  background: #E5E5E5;
+  border-radius: 5px;
+}
+
+/****************************************************************************/
+.top-bar{
+  position: fixed;
+  width: 100%;
+  height: 56px;
+  left: 0px;
+  top: 0px;
+
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.menu{
+  position: absolute;
+  width: 22px;
+  height: 14px;
+  left: 22px;
+  top: 23px;
+}
+
+.logo{
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  left: 72px;
+  top: 10px;
+
+  background: #E5E5E5;
+  border-radius: 50%;
+}
+
+.name{
+  position: absolute;
+  width: 90px;
+  height: 18px;
+  left: 119px;
+  top: 19px;
+
+  background: #E5E5E5;
+  border-radius: 5px;
+}
+
+.notify{
+  position: absolute;
+  width: 27px;
+  height: 30px;
+  /* left: 80.41%; */
+  top: 10px;
+  right: 255px;
+  /* right: 17.70%; */
+}
+
+.profile-frame{
+  position: absolute;
+  width: 130px;
+  height: 37px;
+  /* left: 69.86%; */
+  /* right: 21.11%; */
+  right: 304px;
+  top: 10px;
+
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 37px;
+}
+
+.profile-star{
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: 95px;
+  top: 7.5px;
+
+  /* border: 1px solid #000000; */
+  box-sizing: border-box;
+}
+
+.user-name{
+  position: absolute;
+  width: 44px;
+  height: 11px;
+  left: 41px;
+  top: 13px;
+
+  background: #E5E5E5;
+  border-radius: 5px;
+}
+
+.dp{
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  top: 6px;
+  left: 6px;
+
+  /* background: #000000; */
+}
+
+
+/*******************************************************************************/
+
+.comm-panel{
+  position: fixed;
+  /* width: 15.97%; */
+  width: 230px;
+  height: 100vh;
+  top: 0px;
+  right: 0px;
+
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.pic1{
+  position: absolute;
+  width: 190px;
+  height: 149px;
+  left: 20px;
+  top: 129px;
+
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.pic2{
+  position: absolute;
+  width: 190px;
+  height: 149px;
+  left: 20px;
+  top: 437px;
+
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.pic3{
+  position: absolute;
+  width: 190px;
+  height: 149px;
+  left: 20px;
+  top: 817px;
+
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.circle{
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  left: 22px;
+  top: 77px;
+
+  background: #E5E5E5;
+  border-radius: 50%;
+}
+
+.circle:nth-child(0){
+  top: 77px;
+}
+
+.circle:nth-child(1){
+  top: 313px;
+}
+
+.circle:nth-child(2){
+  top: 385px;
+}
+
+.circle:nth-child(3){
+  top: 621px;
+}
+
+.circle:nth-child(4){
+  top: 693px;
+}
+
+.circle:nth-child(5){
+  top: 765px;
+}
+
+.rec1{
+  position: absolute;
+  width: 120px;
+  height: 18px;
+  left: 20px;
+  top: 19px;
+
+  background: #E5E5E5;
+  border-radius: 5px;
+}
+
+.rec2{
+  position: absolute;
+  width: 100px;
+  height: 18px;
+  left: 67px;
+  top: 86px;
+
+  background: #E5E5E5;
+  border-radius: 5px;
+}
+
+.rec3{
+  position: absolute;
+  width: 80px;
+  height: 18px;
+  left: 67px;
+  top: 322px;
+
+  background: #E5E5E5;
+  border-radius: 5px;
+}
+
+.rec4{
+  position: absolute;
+  width: 120px;
+  height: 18px;
+  left: 67px;
+  top: 394px;
+
+  background: #E5E5E5;
+  border-radius: 5px;
+}
+
+.rec5{
+  position: absolute;
+  width: 80px;
+  height: 18px;
+  left: 67px;
+  top: 630px;
+
+  background: #E5E5E5;
+  border-radius: 5px;
+}
+
+.rec6{
+  position: absolute;
+  width: 120px;
+  height: 18px;
+  left: 67px;
+  top: 702px;
+
+  background: #E5E5E5;
+  border-radius: 5px;
+}
+
+.rec7{
+  position: absolute;
+  width: 100px;
+  height: 18px;
+  left: 67px;
+  top: 774px;
+
+  background: #E5E5E5;
+  border-radius: 5px;
+}
+
+.closepanel{
+  position: absolute;
+  left: 194px;
+  top: 21px;
+  width: 16px;
+  height: 16px;
+}
+
+/******************************** TITLE ****************************************/
+
+.title{
+  position: absolute;
+  width: 608px;
+  height: 79px;
+  /* left: 337px; */
+  left: 474.5px;
+  top: 126px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.title-heading{
+  position: absolute;
+  width: 257px;
+  height: 40px;
+  left: 176px;
+  top: 0px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  align-self: center;
+  /* or 250% */
+
+  color: #000000;
+}
+
+.title-text{
+  position: absolute;
+  width: 609px;
+  height: 24px;
+  left: 0px;
+  top: 55px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  align-self: center;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/******************************** CONVERTER SCREEN ****************************/
+
+.converter{
+  position: absolute;
+  width: 670px;
+  height: 357px;
+  /* left: 306px; */
+  left: 443.5px;
+  top: 205px;
+
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+
+.converter-eth{
+  position: absolute;
+  width: 200px;
+  height: 357px;
+  left: 0px;
+  top: 0px;
+
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+
+.converter-flow{
+  position: absolute;
+  width: 200px;
+  height: 357px;
+  right: 0px;
+  top: 0px;
+
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.converter-frame{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 0px;
+  top: 60px;
+
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+
+#converter-frame-shifted{
+  top: 84px;
+}
+
+#converter-frame-highlighted{
+  top: 84px;
+  border: 1px solid #0025FF;
+}
+
+#converter-frame-eth{
+  top: 84px;
+  opacity: 0.5;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+#converter-frame-flow{
+  top: 84px;
+  border: 1px solid #4CD964;
+}
+
+
+
+.pic{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+
+  align-self: center;
+}
+
+.frame-text-flow{
+  position: absolute;
+  width: 54px;
+  height: 29px;
+  left: 73px;
+  top: 85px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+
+  color: #000000;
+}
+
+.frame-text-eth{
+  position: absolute;
+  width: 109px;
+  height: 29px;
+  left: 45px;
+  top: 85px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+
+  color: #000000;
+}
+
+
+
+
+.eth{
+  position: absolute;
+  width: 109px;
+  height: 29px;
+  left: 45px;
+  top: 40px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  align-self: center;
+
+  color: #000000;
+}
+
+.flow{
+  position: absolute;
+  width: 54px;
+  height: 29px;
+  left: 73px;
+  top: 40px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  align-self: center;
+
+  color: #000000;
+}
+
+
+
+.nft-info{
+  position: absolute;
+  /* width: 126px; */
+  width: 200px;
+  height: 18px;
+  left: 0px;
+  /* left: 37px; */
+
+  top: 299px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  align-items: center;
+  text-align: center;
+  align-self: center;
+
+  color: #000000;
+}
+
+#nft-info-highlighted{
+  color: #0025FF;
+}
+
+#nft-info-faded{
+  opacity: 0.5;
+}
+
+.address-frame-eth{
+  position: absolute;
+  width: 155px;
+  height: 30px;
+  left: 23px;
+  top: 275px;
+
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.address-frame-flow{
+  position: absolute;
+  width: 155px;
+  height: 30px;
+  left: 23px;
+  top: 299px;
+
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.address-frame-with-nft{
+  position: absolute;
+  width: 155px;
+  height: 30px;
+  left: 23px;
+  top: 327px;
+
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.close{
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  left: 134px;
+  top: 5px;
+  right: 15px;
+}
+
+
+.address-text{
+  position: absolute;
+  width: 109px;
+  height: 18px;
+  left: 15px;
+  top: 6px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  align-items: center;
+  text-align: center;
+  align-self: center;
+
+  color: #000000;
+}
+
+.link{
+  position: absolute;
+  width: 130px;
+  height: 38.5px;
+  left: 274px;
+  top: 141px;
+}
+
+/********************************** ETH WALLET CONNECT ************************/
+
+.connect-wallet{
+  position: absolute;
+  width: 350px;
+  height: 99px;
+  /* left: 469px; */
+  left: 606.5px;
+  top: 584px;
+}
+
+.connect-wallet-heading{
+  position: absolute;
+  width: 350px;
+  height: 29px;
+  left: 0px;
+  top: 0px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.connect-wallet-btn{
+  position: absolute;
+  width: 112px;
+  height: 40px;
+  left: 119px;
+  bottom: 0px;
+
+  background: #0025FF;
+  border-radius: 5px;
+}
+
+.connect-wallet-btn-text{
+  position: absolute;
+  width: 72px;
+  height: 22px;
+  left: 20px;
+  top: 9px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+/******************************** PROGRESS BAR ********************************/
+.progress-bar{
+  position: absolute;
+  width: 470px;
+  height: 30px;
+  /* left: 465px; */
+  left: 602px;
+  top: 515px;
+}
+
+#progress-bar-start{
+  top: 515px;
+}
+
+#progress-bar-eth-connected{
+  top: 555px;
+}
+
+#progress-bar-nft-selected{
+  top: 612px;
+}
+
+#progress-bar-to-escrow{
+  top: 628px;
+}
+
+#progress-bar-completed{
+  top: 628px;
+  /* left: 411px; */
+  left: 547.37px;
+}
+
+.progress-bar-eth{
+  top: 555px;
+}
+
+.progress-bar-flow{
+  top: 628px;
+}
+
+.progress-bar-converted{
+  left: 410px;
+}
+
+.progress-circle{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 0px;
+  top: 0px;
+
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+.progress-text{
+  position: absolute;
+  width: 12px;
+  height: 22px;
+  left: 8.5px;
+  top: 3px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000
+}
+
+.line{
+  position: absolute;
+  width: 80px;
+  height: 0px;
+  left: 30px;
+  top: 15px;
+  border: 0.5px solid #000000;
+}
+
+.converted-circle{
+  background: #4CD964;
+  border: 1px solid #4CD964;
+}
+
+.completed-circle{
+  background: #000000;
+}
+
+.completed-text{
+  color: #FFFFFF;
+}
+
+.minted-tick{
+  position: absolute;
+  height: 9.34px;
+  width: 15px;
+  left: 6.5px;
+  top: 5px;
+}
+
+/***************************** NFT Collection ***************************************/
+
+
+.nft-collection{
+  position: absolute;
+  width: 621px;
+  height: 463px;
+  /* height: 576px; */
+
+  /* left: 333px; */
+  left: 467.5px;
+  top: 745px;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: wrap;
+  -ms-box-orient: horizontal;
+}
+
+#nft-collection-nft-selected{
+  top: 857px;
+}
+
+.nft{
+  position: relative;
+  width: 120px;
+  height: 198px;
+  left: 0px;
+  top: 0px;
+
+  margin-right: 40px;
+  margin-bottom: 30px;
+}
+
+.nft:nth-child(4n){
+  margin-right: 0px;
+}
+
+.nft-frame{
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: 0px;
+  top: 0px;
+
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.nft-text{
+  position: absolute;
+  /* width: 126px; */
+  width: 140px;
+  height: 18px;
+  left: -3px;
+  top: 130px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  /* font-size: 16px; */
+  font-size: 12.5px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #000000;
+}
+
+#nft-text-highlighted{
+  color: #0025FF;;
+}
+
+#nft-frame-highlighted{
+  border: 1px solid #0025FF;;
+}
+
+.nft-btn{
+  position: absolute;
+  width: 94px;
+  height: 40px;
+  left: 13px;
+  top: 158px;
+
+  border: 1px solid #0025FF;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #FFFFFF;
+  background-color: rgba(229, 229, 229, 0.2);
+}
+
+#nft-btn-clicked, .nft-btn:active, .nft-btn-clicked:active{
+  position: absolute;
+  width: 94px;
+  height: 40px;
+  left: 13px;
+  top: 158px;
+
+  border: 1px solid #0025FF;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+  opacity: 0.3;
+}
+
+.nft-btn-txt{
+  position: absolute;
+  width: 54px;
+  height: 22px;
+  left: 20px;
+  top: 9px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  display: flex;
+  align-items: center;
+
+  color: #0025FF;
+}
+
+.nft-pic{
+  position: absolute;
+  width: 120px;
+  height: 120px;
+
+  align-self: center;
+}
+
+/*************************** INSTRUCTIONS **************************************/
+.inst{
+  position: relative;
+  width: 465px;
+  height: 75px;
+  /* left: 407px; */
+  left: 544.5px;
+  top: 630px;
+  /* top: 574px; */
+}
+
+#inst-nft-selected{
+  top: 682px;
+}
+
+
+.inst-heading{
+  position: absolute;
+  width: 160px;
+  height: 29px;
+  left: 157px;
+  top: 0px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+
+  text-align: center;
+  color: #000000;
+}
+
+.inst-text{
+  position: absolute;
+  width: 465px;
+  height: 36px;
+  left: 0px;
+  top: 39px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #000000;
+
+  opacity: 0.5;
+}
+
+.transfer-escrow{
+  position: relative;
+  width: 174px;
+  height: 40px;
+  left: 147px;
+  top: 95px;
+
+  background: #0025FF;
+  border-radius: 5px;
+}
+
+.transfer-escrow-text{
+  position: absolute;
+  width: 134px;
+  height: 22px;
+  left: 20px;
+  top: 9px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+
+/************************** LOGIN FLOW  **************************************/
+
+.flow-login{
+  position: relative;
+  width: 280px;
+  height: 99px;
+  left: 640.5px;
+  top: 698px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.flow-login-text{
+  position: absolute;
+  width: 280px;
+  height: 29px;
+  left: 0px;
+  top: 0px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.flow-login-btn{
+  position: absolute;
+  width: 112px;
+  height: 40px;
+  left: 84px;
+  bottom: 0px;
+
+  background: #0025FF;
+  border-radius: 5px;
+}
+
+.flow-login-btn-text{
+  position: absolute;
+  width: 72px;
+  height: 22px;
+  left: 20px;
+  top: 9px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+/*************************** CONVERT ******************************************/
+
+.convert{
+  position: relative;
+  width: 257px;
+  height: 136.79px;
+  /* left: 375px; */
+  /* left: 516px; */
+  /* left: 625.5px; */
+  left: 653.5px;
+  top: 698px;
+
+}
+
+.convert-txt{
+  position: absolute;
+  width: 257px;
+  height: 29px;
+  left: 0px;
+  top: 0px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.convert-btn{
+  position: absolute;
+  width: 93px;
+  height: 40px;
+  left: 82px;
+  top: 59px;
+
+  background: #0025FF;
+  border-radius: 5px;
+}
+
+.convert-btn:active, .convert-btn-clicked{
+  opacity: 0.3;
+}
+
+.convert-btn-txt{
+  position: absolute;
+  width: 43px;
+  height: 22px;
+  left: 25px;
+  top: 9px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.loader{
+  /** TODO **/
+  position: absolute;
+  width: 137px;
+  height: 26.79px;
+  left: 60px;
+  top: 110px;
+}
+
+.loader-text{
+  position: absolute;
+  width: 100px;
+  height: 18px;
+  right: 0px;
+  top: 4px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  self-align: center;
+  color: #000000;
+
+  opacity: 0.5;
+}
+
+.loader-gif{
+  position: absolute;
+  height: 18.95px;
+  width: 20px;
+  left: 0px;
+  bottom: 0px;
+
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+/**************************** MINTED ******************************************/
+
+.minted{
+  position: relative;
+  width: 465px;
+  height: 127px;
+  /* left: 412px; */
+  left: 549.37px;
+  top: 698px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.minted-heading{
+  position: absolute;
+  width: 102px;
+  height: 29px;
+  left: 181px;
+  top: 0px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+
+  color: #4CD964;
+}
+
+.minted-txt{
+  position: absolute;
+  width: 465px;
+  height: 18px;
+  top: 39px;
+  left: 0px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+
+  color: #000000;
+
+  opacity: 0.5;
+}
+
+.remint-btn{
+  position: absolute;
+  width: 144px;
+  height: 40px;
+  top: 87px;
+  left: 161px;
+
+  display: flex;
+  background: #0025FF;
+  border-radius: 5px;
+}
+
+.remint-btn-txt{
+  position: absolute;
+  width: 94px;
+  height: 22px;
+  left: 25px;
+  top: 9px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+}

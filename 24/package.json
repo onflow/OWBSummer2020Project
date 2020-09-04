@@ -1,0 +1,49 @@
+{
+  "name": "magic_converter",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@onflow/config": "^0.0.2",
+    "@onflow/fcl": "^0.0.53",
+    "@onflow/fcl-config": "^0.0.1",
+    "@onflow/sdk": "^0.0.31",
+    "@onflow/types": "^0.0.3",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@walletconnect/web3-provider": "^1.0.0-beta.47",
+    "axios": "^0.20.0",
+    "elliptic": "^6.5.3",
+    "ethers": "^4.0.43",
+    "fs": "^0.0.1-security",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.3",
+    "rlp": "^2.2.6",
+    "sha3": "^2.1.3",
+    "web3modal": "^1.5.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev:emulator": "flow emulator start -v --http-port 8080 -p 3570",
+    "dev:wallet": "PK=5e967c6c6370b4b243d107794f6096cc346415142eacb72ed64ccfee4e4ae8f5 && fcl-wallet"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
